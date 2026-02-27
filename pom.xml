@@ -47,7 +47,7 @@
                 <version>3.5.4</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suitXmlFile>src/test/resources/testing.xml</suitXmlFile>
+                        <suitXmlFile>src/test/resources/testng.xml</suitXmlFile>
                     </suiteXmlFiles>
                     <includes>
                         <include>**/*Runner.java</include>
