@@ -24,7 +24,7 @@ public class TestLoginPage {
         BrowserFactory.quitDriver();
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void test1_postCommentAndPostBtnVerification() {
         loginPage.login("Admin", "admin123");
         dashboardPage.clickOnBuzz();
