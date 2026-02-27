@@ -31,7 +31,7 @@ pipeline {
 
     environment {
         MAVEN_OPTS = "-Xmx1024m"
-        GIT_REPO = "https://github.com/darshanlohiya95/OrangeHRM.git"
+        GIT_REPO = "https://github.com/darshanlohiya95/OrangeHRMProject.git"
     }
 
     stages {
